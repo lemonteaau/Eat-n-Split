@@ -18,3 +18,27 @@ const initialFriends = [
     balance: 0,
   },
 ];
+
+export default function App() {
+  return (
+    <FriendsList />
+    <AddFriend />
+    <Split />
+  )
+}
+
+function FriendsList() {
+  
+}
+
+function Friend() {
+  
+}
+
+function AddFriend() {
+  
+}
+
+function Split() {
+  
+}
