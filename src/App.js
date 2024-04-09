@@ -2,21 +2,21 @@ import { useState } from "react";
 
 const initialFriends = [
   {
-    id: 118836,
+    id: 234656235454645,
     name: "Clark",
-    image: "https://i.pravatar.cc/48?u=118836",
+    image: "https://i.pravatar.cc/48?u=234656235454645",
     balance: -7,
   },
   {
-    id: 933372,
+    id: 12356133357356,
     name: "Sarah",
-    image: "https://i.pravatar.cc/48?u=933372",
+    image: "https://i.pravatar.cc/48?u=12356133357356",
     balance: 20,
   },
   {
-    id: 499476,
-    name: "Anthony",
-    image: "https://i.pravatar.cc/48?u=499476",
+    id: 13928567,
+    name: "Mary",
+    image: "https://i.pravatar.cc/48?u=13928567",
     balance: 0,
   },
 ];
