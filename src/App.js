@@ -102,8 +102,7 @@ function Friend({ friend, onSelection, selectedFriend }) {
       </p>
 
       <Button onClick={() => onSelection(friend)}>
-        {" "}
-        {selectedFriend?.id === friend.id ? "Close" : "Select"}{" "}
+        {selectedFriend?.id === friend.id ? "Close" : "Select"}
       </Button>
     </li>
   );
