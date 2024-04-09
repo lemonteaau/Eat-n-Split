@@ -44,7 +44,7 @@ export default function App() {
   }
 
   function handleSelection(friend) {
-    setSelectedFriend(friend);
+    setSelectedFriend(selectedFriend?.id === friend.id ? null : friend);
   }
 
   return (
@@ -84,7 +84,7 @@ function FriendsList({ friends, onSelection, selectedFriend }) {
 
 function Friend({ friend, onSelection, selectedFriend }) {
   return (
-    <li className={selectedFriend.id === friend.id ? "selected" : ""}>
+    <li className={selectedFriend?.id === friend.id ? "selected" : ""}>
       <img src={friend.image} alt={friend.name} />
       <h3>{friend.name}</h3>
       <p>
@@ -101,7 +101,10 @@ function Friend({ friend, onSelection, selectedFriend }) {
         )}
       </p>
 
-      <Button onClick={() => onSelection(friend)}> Select</Button>
+      <Button onClick={() => onSelection(friend)}>
+        {" "}
+        {selectedFriend?.id === friend.id ? "Close" : "Select"}{" "}
+      </Button>
     </li>
   );
 }
