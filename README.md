@@ -65,7 +65,7 @@ Contributions to Eat-n-Split are welcome! If you find any bugs, have suggestions
 
 ## Credit
 
-This project is based on the Flash Card app project from JONAS SCHMEDTMANN's "The Ultimate React Course".
+This project is based on a project from JONAS SCHMEDTMANN's "The Ultimate React Course".
 The course provided the foundation and guidance for building this app.
 
 ## License
